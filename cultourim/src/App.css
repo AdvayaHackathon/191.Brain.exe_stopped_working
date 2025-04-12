@@ -1,5 +1,7 @@
 @import url("https://fontlibrary.org//face/dogica");
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin 'tailwind-scrollbar';
 
 
 :root{
@@ -22,3 +24,4 @@
     image-rendering: pixelated;
     filter: contrast(150%) brightness(120%);
   }
+

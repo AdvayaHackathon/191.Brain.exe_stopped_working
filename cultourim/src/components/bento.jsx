@@ -21,7 +21,7 @@ export default function Bento(){
   </p>  </div>
   <div className="bg-black/15 rounded-xl p-6 col-span-2 flex items-center justify-center hover:scale-105 transition font-pixel">
   <p className="font-pixel font-bold text-xl bg-gradient-to-r from-violet-400 to-orange-500 bg-clip-text text-transparent">
-  Voyage-Vibes
+  <Link to="/voyage">Voyage-Vibes</Link>
   </p>
   </div>
 </div>

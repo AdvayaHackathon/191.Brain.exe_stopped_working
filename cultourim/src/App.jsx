@@ -4,6 +4,8 @@ import Landing from './pages/landing'
 import Home from './pages/home'
 import './App.css'
 import Ava from './pages/ava'
+import Voyage from './pages/voyage'
+import Hop from './pages/hop'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         <Route path='/' element={<Landing/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/ava' element={<Ava/>}/>
+        <Route path='/voyage' element={<Voyage/>}/>
+        <Route path='/hop' element={<Hop/>}/>
       </Routes>
      </Router>
     </div>
