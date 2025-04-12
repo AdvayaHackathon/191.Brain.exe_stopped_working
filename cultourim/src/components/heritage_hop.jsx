@@ -667,7 +667,9 @@ const TravelRouteAnimator = () => {
 
                         {segment.transport && (
                             <div className="flex items-center px-2 py-1 bg-black/30 rounded-lg">
+                                <span className="ml-2 text-xs font-pixel" style={{ color: transportOptions[segment.transport].color }}>
                                 {transportOptions[segment.transport].icon}
+                                </span>
                                 <span className="ml-2 text-xs font-pixel" style={{ color: transportOptions[segment.transport].color }}>
                                     {segment.transport.charAt(0).toUpperCase() + segment.transport.slice(1)}
                                 </span>
@@ -832,9 +834,9 @@ const TravelRouteAnimator = () => {
 
     return (
         <div className="fixed top-[17%] rounded-xl h-[85%] scrollbar-none left-[10%] w-[80%] bg-black/15 flex flex-col">
-            <div className="mt-4 ml-[60%] h-[10%] text-3xl flex-end font-pixel bg-gradient-to-r from-violet-400 to-orange-500 bg-clip-text text-transparent">
+            <div className="mt-4 ml-[65%] h-[10%] text-3xl flex-end font-pixel bg-gradient-to-r from-violet-400 to-orange-500 bg-clip-text text-transparent">
                 <p className="flex flex-row">
-                    ROUTE ANIMATOR
+                    HERITAGE HOP
                 </p>
             </div>
 

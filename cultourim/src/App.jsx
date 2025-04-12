@@ -6,6 +6,7 @@ import './App.css'
 import Ava from './pages/ava'
 import Voyage from './pages/voyage'
 import Hop from './pages/hop'
+import P from './pages/penny'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/ava' element={<Ava/>}/>
         <Route path='/voyage' element={<Voyage/>}/>
         <Route path='/hop' element={<Hop/>}/>
+        <Route path='/penny' element={<P/>}/>
       </Routes>
      </Router>
     </div>

@@ -34,7 +34,7 @@ export default function Chatbot() {
         setIsLoading(true);
 
         try {
-            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-8b", systemInstruction: "you are a very helpful virtual tourguide,You are the best in your field and can answer anything related to cultural and tourism.Dont answer questions that is out of the mentioned scope" });
+            const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-8b", systemInstruction: "you are a very helpful virtual tourguide,You are the best in your field and can answer anything related to cultural and tourism.Dont answer questions other than these topics, like u should not answer questions related to cricket and stuff....say u are limited" });
 
             const contentParts = [{ text: inputMessage }];
 
